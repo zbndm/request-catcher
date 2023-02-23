@@ -1,0 +1,16 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^5.1.14",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "parcel": "^2.8.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0"
+  }
+}

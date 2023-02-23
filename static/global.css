@@ -1,0 +1,85 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #1B70C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#content {
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+h1 { opacity: .87 }
+
+#root {
+  display: flex;
+  flex-direction: row;
+}
+
+#use-a-catcher {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 2em 3% 0 3%;
+  font-weight: lighter;
+  padding: 1em;
+  border-radius: 5px;
+  min-width: 40%;
+}
+
+#use-a-catcher input#subdomain {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  width: 5em;
+  text-align: center;
+  font-weight: lighter;
+  border: 1px #DDD solid;
+  border-radius: 5px;
+}
+
+#new-catcher input#go {
+  margin-top: 2em;
+  color: #FFF;
+  background: #15cd72;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.7em;
+  padding: 0.75rem 3rem;
+}
+
+#new-catcher input#go:hover {
+  background: #0cb863;
+  cursor: pointer;
+}
+
+#new-catcher #go-row {
+  margin: 0.5em 0;
+}
+
+h4 {
+  font-size: 20pt;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+#explanation {
+  margin: 50px 0 20px 0;
+  flex: 1;
+}
+
+div.options a {
+  font-size: 0.8em;
+  margin: 1em 0;
+  color: #7DA5AD;
+}

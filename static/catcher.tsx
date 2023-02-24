@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { render } from 'react-dom'
-import { RequestDetail } from '~/components/request_detail'
+import { RequestDetail } from '../components/request_detail'
 
 window.catcher = window.catcher || {};
 
